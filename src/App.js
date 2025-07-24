@@ -60,7 +60,7 @@ function MyApp() {
       <section className="message">
         <p>
           Aquí cito algunas de nuestras canciones mas significantes y profundas para ambos, 
-          para recordar el cuánto nos amamamos, aquellos momentos de cada hermosa canción, 
+          para recordar el cuánto nos amamos, aquellos momentos de cada hermosa canción, 
           te amo con toda mi alma mi Nayeli hermosa. 
         </p>
       </section>   
