@@ -3,12 +3,17 @@ import imagen from './assets/you_and_me.jpg';
 import './App.css';
 
 const songsIdSpotify = [
-  "6QJCZyJv1fhkCyZA3lRoAD?si=22af5c24e64d4a4d",
-  "7sCHy8QQUz3CRvUMp53Cbm?si=f583f34358584798",
-  "65vdMBskhx3akkG9vQlSH1?si=34924d13544746f8",
-  "2KhrPRV0V1FS2l4eQMJUWt?si=a0cc10e4cb2a4e5a",
-  "6aBUnkXuCEQQHAlTokv9or?si=3b01f5d20e424cf1",
-  "6jgkEbmQ2F2onEqsEhiliL?si=76f1d44bab0f4948"
+  "6QJCZyJv1fhkCyZA3lRoAD",
+  "7sCHy8QQUz3CRvUMp53Cbm",
+  "65vdMBskhx3akkG9vQlSH1",
+  "2KhrPRV0V1FS2l4eQMJUWt",
+  "6aBUnkXuCEQQHAlTokv9or",
+  "6jgkEbmQ2F2onEqsEhiliL",
+  "1xYBeQ5u8uaJ3oBWktjGyJ",
+];
+
+const songIdSpeatily = [
+  "3AJwUDP919kvQ9QcozQPxg"
 ];
 
 const showMusicSpotify = (songsIdSpotify) => {
@@ -35,7 +40,7 @@ function MyApp() {
   return (
     <div className="App">
       <header>
-        <h1>¡Feliz primeros dos meses juntos mi amoooor!</h1>
+        <h1 className="effectShadow">¡Feliz primeros dos meses juntos mi amoooor!</h1>
       </header>
       
       <section className="message">
@@ -60,6 +65,13 @@ function MyApp() {
         </p>
       </section>   
       {showMusicSpotify(songsIdSpotify)}
+
+      <section className="message">
+        <p>
+          Esta cancion es hermosa, y te la dedico por aquí, anda escuchala mi amor, ¡TE AMOO!
+        </p>
+      </section>
+      {showMusicSpotify(songIdSpeatily)}
     </div>
   );
 }
